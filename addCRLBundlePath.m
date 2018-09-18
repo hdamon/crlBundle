@@ -1,11 +1,14 @@
 % Configure Matlab Path to Include the full crlBundle
+function addCRLBundlePath()
 [currDir,~,~] = fileparts(mfilename('fullpath'));
 
 addpath(fullfile(currDir,'/crlBase'));
 addpath(fullfile(currDir,'/labelledArray'));
 addpath(fullfile(currDir,'/MatTSA'));
+addpath(fullfile(currDir,'/MatTSA/wavelet/'));
 addpath(fullfile(currDir,'/guiTools'));
-addpath(fullfile(currDir,'/crlEEG'));
+run('./crlEEG/addCRLEEGPath.m');
+run('./MatTSA/addMatTSAPath.m');
 
 
 
