@@ -4,8 +4,6 @@ function addCRLBundlePath()
 
 addpath(fullfile(currDir,'/crlBase'));
 addpath(fullfile(currDir,'/labelledArray'));
-addpath(fullfile(currDir,'/MatTSA'));
-addpath(fullfile(currDir,'/MatTSA/wavelet/'));
 addpath(fullfile(currDir,'/guiTools'));
 run('./crlEEG/addCRLEEGPath.m');
 run('./MatTSA/addMatTSAPath.m');
