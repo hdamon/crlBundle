@@ -13,3 +13,6 @@
 [submodule "guiTools"]
 	path = guiTools
 	url = https://github.com/hdamon/guiTools
+[submodule "crlImage"]
+	path = crlImage
+	url = https://github.com/hdamon/crlImage
