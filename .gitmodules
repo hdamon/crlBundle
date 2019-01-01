@@ -1,18 +1,25 @@
 [submodule "crlEEG"]
 	path = crlEEG
 	url = https://github.com/hdamon/crlEEG
+	branch = master
 [submodule "crlBase"]
 	path = crlBase
 	url = https://github.com/hdamon/crlBase
+	branch = master
 [submodule "labelledArray"]
 	path = labelledArray
 	url = https://github.com/hdamon/labelledArray
+	branch = master
 [submodule "MatTSA"]
 	path = MatTSA
 	url = https://github.com/hdamon/MatTSA
+	branch = master
 [submodule "guiTools"]
 	path = guiTools
 	url = https://github.com/hdamon/guiTools
+	branch = master
 [submodule "crlImage"]
 	path = crlImage
 	url = https://github.com/hdamon/crlImage
+	branch = master
+
