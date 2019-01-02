@@ -6,6 +6,7 @@ addpath(fullfile(currDir,'/crlBase'));
 addpath(fullfile(currDir,'/labelledArray'));
 addpath(fullfile(currDir,'/guiTools'));
 addpath(fullfile(currDir,'/crlImage'));
+run('./crlBase/addCRLBasePath.m');
 run('./crlEEG/addCRLEEGPath.m');
 run('./MatTSA/addMatTSAPath.m');
 run('./crlImage/addCRLImagePath.m');
